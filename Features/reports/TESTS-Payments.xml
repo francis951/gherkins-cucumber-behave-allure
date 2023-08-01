@@ -1,0 +1,44 @@
+<testsuite name="Payments.Payment Process" tests="3" errors="0" failures="0" skipped="0" time="0.001001" timestamp="2023-08-01T11:10:33.455971" hostname="DESKTOP-BSL099C"><testcase classname="Payments.Payment Process" name="Credit card Transaction" status="passed" time="0.0"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @creditpayment @payment
+  Scenario: Credit card Transaction
+    Given User is on credit card payment screen ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+User is on credit card payment screen
+
+]]>
+</system-out></testcase><testcase classname="Payments.Payment Process" name="Debit card Transaction" status="passed" time="0.001001"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @debitpayment @payment
+  Scenario: Debit card Transaction
+    Given User is on debit card payment screen ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+user is on debit card payment screen
+
+]]>
+</system-out></testcase><testcase classname="Payments.Payment Process" name="Cheque Transaction" status="passed" time="0.0"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Cheque Transaction
+    Given User is on Cheque payment screen ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+user is on cheque payment screen
+
+]]>
+</system-out></testcase></testsuite>

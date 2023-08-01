@@ -1,0 +1,46 @@
+<testsuite name="books.Varify Book name added in the Library" tests="3" errors="0" failures="0" skipped="0" time="0.002999" timestamp="2023-08-01T11:10:33.906968" hostname="DESKTOP-BSL099C"><testcase classname="books.Varify Book name added in the Library" name="Varify Book name" status="passed" time="0.000999"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Varify Book name
+    Given Book details ... passed in 0.000s
+    Then Varify book name ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Book details entered
+Varify the book name
+
+]]>
+</system-out></testcase><testcase classname="books.Varify Book name added in the Library" name="Check login functionality -- @1.1 Credentials" status="passed" time="0.000999"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Check login functionality -- @1.1 Credentials
+    Given user enters "user1" and "pwd1" ... passed in 0.001s
+    Then user should be logged in ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Username for login: user1
+Password for login: pwd1
+
+]]>
+</system-out></testcase><testcase classname="books.Varify Book name added in the Library" name="Check login functionality -- @1.2 Credentials" status="passed" time="0.001"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Check login functionality -- @1.2 Credentials
+    Given user enters "user2" and "pwd2" ... passed in 0.001s
+    Then user should be logged in ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+Username for login: user2
+Password for login: pwd2
+
+]]>
+</system-out></testcase></testsuite>
